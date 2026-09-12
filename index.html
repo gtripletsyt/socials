@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>gtrip's socials </title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+
+      font-family: Arial, sans-serif;
+      color: white;
+
+      background:
+        radial-gradient(circle at top, #333 0%, #111 45%, #080808 100%);
+
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 680px;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    /* Profile */
+
+    .profile {
+      margin-bottom: 35px;
+    }
+
+    .profile-picture {
+      width: 100px;
+      height: 100px;
+
+      border-radius: 50%;
+      object-fit: cover;
+
+      border: 3px solid white;
+
+      margin-bottom: 15px;
+    }
+
+    .name {
+      font-size: 26px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .username {
+      color: #aaa;
+      margin-top: 7px;
+      font-size: 15px;
+    }
+
+    /* Social links */
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .social {
+      position: relative;
+
+      display: flex;
+      align-items: center;
+
+      min-height: 62px;
+
+      padding: 15px 55px 15px 70px;
+
+      border-radius: 15px;
+
+      background: rgba(255, 255, 255, 0.10);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+
+      color: white;
+      text-decoration: none;
+
+      font-size: 17px;
+      font-weight: bold;
+
+      backdrop-filter: blur(10px);
+
+      transition:
+        transform 0.2s,
+        background 0.2s,
+        border-color 0.2s;
+    }
+
+    .social:hover {
+      transform: translateY(-3px) scale(1.01);
+
+      background: rgba(255, 255, 255, 0.18);
+
+      border-color: rgba(255, 255, 255, 0.35);
+    }
+
+    /* Logo */
+
+    .social img {
+      position: absolute;
+
+      left: 20px;
+
+      width: 27px;
+      height: 27px;
+
+      object-fit: contain;
+    }
+
+    .footer {
+      margin-top: 35px;
+
+      color: #777;
+
+      font-size: 13px;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        padding: 35px 15px;
+      }
+
+      .social {
+        min-height: 58px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <div class="profile">
+
+      <img
+        class="profile-picture"
+        src="assets/profile.png"
+        alt="gtrip logo"
+      >
+
+      <h1 class="name">gtrip</h1>
+
+      <div class="username">
+        @gtripW
+      </div>
+
+    </div>
+
+
+    <div class="links">
+
+      <a
+        class="social"
+        href="https://youtube.com/@gtripW"
+        target="_blank"
+      >
+        <img src="assets/youtube.png" alt="YouTube">
+        YouTube
+      </a>
+
+
+      <a
+        class="social"
+        href="https://tiktok.com/@gtripgamer"
+        target="_blank"
+      >
+        <img src="assets/tiktok.png" alt="TikTok">
+        TikTok
+      </a>
+
+
+
+      <a
+        class="social"
+        href="https://x.com/@gtripletsyt"
+        target="_blank"
+      >
+        <img src="assets/x.png" alt="X">
+        X / Twitter
+      </a>
+
+
+      <a
+        class="social"
+        href=""
+        target="_blank"
+      >
+        <img src="assets/discord.png" alt="Discord">
+        Discord
+      </a>
+
+
+      <a
+        class="social"
+        href="https://github.com/gtripletsyt/"
+        target="_blank"
+      >
+        <img src="assets/github.png" alt="GitHub">
+        GitHub
+      </a>
+
+    </div>
+
+
+    <div class="footer">
+      © 2026 gtrip
+    </div>
+
+  </main>
+
+</body>
+</html>
+```
+
+
